@@ -27,5 +27,6 @@ With the original yolov7, after exporting to onnx and finally tensorrt, there is
 python3 run.py
 ```
 
-REFERENCE:
+## REFERENCE:
+
 [307_YOLOv7](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/307_YOLOv7/demo)
