@@ -21,7 +21,7 @@ With the original yolov7, after exporting to onnx and finally tensorrt, there is
 ```
 /usr/src/tensorrt/bin/trtexec --onnx=src_model.onnx --saveEngine=dst_model.trt --fp16 --explicitBatch --minShapes=images:1x3x256x320 --maxShapes=images:4x3x256x320 --optShapes=images:2x3x256x320 --workspace=2048
 ```
-3. Place model to app/model + add image folder to run.py. Then,
+3. Create "models" folder, then place the model to the models folder + add image folder to run.py. Then,
 ```
 python3 run.py
 ```
