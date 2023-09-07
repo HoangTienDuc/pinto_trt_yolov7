@@ -2,9 +2,8 @@
 ## Table of contents
 - Introduction
 - Prerequires
-- Installation 
 - How to use 
-- Todo
+- Reference
 
 
 ## INTRODUCTION
